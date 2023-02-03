@@ -1,0 +1,74 @@
+
+.section-people{
+    display: flex;
+    flex-direction: column;
+}
+.people-title{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #333333;
+    padding-top: 180px;
+}
+.people-text{
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 44px;
+    text-align: center;
+    color: #333333;
+    padding-top: 13px;
+}
+.people-image{
+    max-width: 964px;
+    width: 100%;
+    padding-top: 60px;
+}
+.peope-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px ,1fr));
+    list-style: none;
+    gap: 60px;
+    text-align: center;
+    margin-top: 200px;
+}
+.peope-item{
+    display: felx;
+    flex-direction: column;
+}
+.people-item h6{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: #0C2520;
+    padding-bottom: 25px;
+}
+.people-item-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #0C2520;
+}
+.people-item span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #164038;
+    padding-top: 38px !important;
+
+}
+@media screen and (max-width:854px){
+    .people-text{
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .peope-list{
+        gap: 30px;
+    }
+    .people-item-text{
+        font-size: 12px;
+    }
+}

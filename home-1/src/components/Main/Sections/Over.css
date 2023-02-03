@@ -1,0 +1,214 @@
+.over-section{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+.over-box__text{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 24px;
+    text-align: center;
+    color: #333333;
+}
+.over-box__title{
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 44px;
+    text-align: center;
+    color: #333333;
+    padding-top: 13px;
+}
+.over-list{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    margin-top: 80px;
+    justify-content: center;
+}
+.over-item--top{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(378px,1fr));
+    gap: 34px;
+    justify-items: center;
+}
+.over-boxs{
+    background: #0C2520;
+    padding: 202px 35px 35px 32px;
+}
+.over-item--title{
+    max-width: 280  px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+.over-link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #32735F;
+}
+
+.over-item--bottom{
+    display: grid; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 2.08fr 1.00005fr; 
+    gap: 0px 33px; 
+}
+.over-item-left{
+    background: #164038;
+    border-radius: 4px;
+    padding: 48px 87px 48px 32px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;   
+    gap: 20px; 
+}
+.over-item-right{
+    background: #0C2520;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+.over-item--bottom hr{
+    background: rgba(232, 232, 232, 0.3);
+    height: 204px;
+    border: 1px solid rgba(232, 232, 232, 0.3);
+}
+.over-tabs__title{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.over-tabs__title span{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34px;
+    color: #E1FFA0;
+}
+.over-tabs__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    max-width: 367px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.over-tabs__link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #E1FFA0;
+}
+
+.over-tabs--right__title{
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.over-tabs--right__title sub{
+    position: relative;
+    width: 61px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+sub b{
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+}
+.over-text--box{
+    display: grid;
+    row-gap: 12px;
+    margin-top:26px;
+    padding-right: 10px;
+}
+.over-tabs--right__text{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.over-tabs--right__text span{
+    font-size: 18px;
+    line-height: 22px;
+    color: #E1FFA0;
+    padding-right: 8px;
+}
+.over-item-right{
+    padding: 50px 120px 62px 33px;
+}
+.over-item-right--data{
+    display: flex;
+    gap: 11px;
+}
+.over-item-right--title{
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.over-item-right p{
+    display: flex;
+    column-gap: 76px;
+    align-items:center;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding-top: 51px;
+    padding-bottom: 40px;
+}
+.over-item-right--data small{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.over-item-right--data sub{
+    max-width: 94px;
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color:#fff;
+    margin-top: 3px;
+}   
+@media screen and (max-width:1024px){
+    .over-item-left{
+        padding: 38px 40px 20px 20px;
+    }
+    .over-tabs--right__title{
+        font-size: 54px;
+    }
+    .over-tabs__text{
+        padding: 20px 0px 15px 0;
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+@media screen and (max-width:854px) {
+        .over-item-left{
+            flex-direction: column;
+        }
+        .over-item-left hr{
+            display: none;
+        }
+        .over-item--top{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .over-item--bottom{
+            grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+            gap: 20px;
+        }
+}
